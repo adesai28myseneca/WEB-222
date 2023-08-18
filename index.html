@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a0bc19c04a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="content">
+                <div class="profile-card">
+                    <img src="./other/images/profile.jpg" alt="profile" class="profile">
+                </div>
+                <div class="header-content">
+                    <h1 class="heading">Anand Desai</h1>
+                    <h2 p class="subtitle">Developer</p></h2>
+                    <div class="buttons">
+                        <button class="btn btn-1"><a href="./other/Anand.pdf" download><i class="fa-solid fa-download"></i> Resume</a></button>
+                        <a href="#contact"><button class="btn btn-2"><i class="fa-solid fa-phone"></i> Contact Me</button></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="about">
+            <div class="about-box">
+                <h3 class="about-heading">About Me</h3>
+                <p class="about-para">
+                    I am Anand Desai, a student of WEB 222, student of amazing professor "Mark Meritt", my long term ambition goal is to become a 'Full Stack Developer' , after completing my CPP(Computer Programming) Degree.
+                </p>
+                <p class="about-date">
+                    <span><b>Date:</b></span> Aug 18, 2023
+                </p>
+            </div>
+            <div class="info-box">
+                <h3 class="about-heading">Basic Info</h3>
+                <ul class="info-list">
+                    <li><p><span><b>Name:</b> Anand Desai</span></p></li>
+                    <li><p><span><b>Course:</b> Diploma</span></p></li>
+                    <li><p><span><b>Section:</b> NFF</span></p></li>
+                    <li><p><span><b>Student ID:</b> 113971220</span></p></li>
+                    <li><p><span><b>Instructor:</b> Mark Meritt</span></p></li>
+                </ul>
+            </div>
+        </section>
+        <hr>
+        <section class="education">
+            <h4 class="education-heading">Education <i class="fa-solid fa-graduation-cap"></i></h4>
+            <div class="education-card">
+                <div class="degree-part">
+                    <p class="expected-date">2022-2204[expected]</p>
+                    <p class="degree">Diploma</p>
+                </div>
+                <div class="degree-details">
+                    <h5 class="degree-heading">Diploma</h5>
+                    <p class="university">Seneca College</p>
+                    <div class="degree-text">
+                    </div>
+                </div>
+            </div>
+            <div class="education-card">
+                <div class="degree-part">
+                    <p class="expected-date"></p>
+                    <p class="degree">Higher Secondary School</p>
+                </div>
+                <div class="degree-details">
+                    <h5 class="degree-heading">Higher Secondary School</h5>
+                    <p class="university">Mauni International School</p>
+                    <div class="degree-text">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="contact" id="contact">
+            <h1 class="contact-heading">Contact Me</h1>
+            <div class="contact__form-section">
+                <form action="https://httpbin.org/post" method="post" class="form">
+                    <div class="form__group">
+                        <input type="text" name="name" id="name" class="form__input form-input" placeholder="Name" required="">
+                        <label for="name" class="form__label form-label">Name</label>
+                    </div>
+                    <div class="form__group">
+                        <input type="email" name="email" id="email" class="form__input form-input" placeholder="Email Address" required="">
+                        <label for="email" class="form__label form-label">Email Address</label>
+                    </div>
+                    <div class="form__group">
+                        <input type="text" name="address" id="address" class="form__input form-input" placeholder="Address">
+                        <label for="address" class="form__label form-label">Address</label>
+                    </div>
+                    <div class="form__group">
+                        <input type="text" name="city" id="city" list="city-suggestions" class="form__input form-input" placeholder="City">
+                        <label for="city" class="form__label form-label">City</label>
+						<datalist id="city-suggestions">
+							<option label="Barrie" value="Barrie"></option>
+							<option label="Calgary" value="Calgary"></option>
+							<option label="Charlottetown" value="Charlottetown"></option>
+							<option label="Chibougamau" value="Chibougamau"></option>
+							<option label="Chilliwack" value="Chilliwack"></option>
+							<option label="Cold Lake" value="Cold Lake"></option>
+							<option label="Dorval" value="Dorval"></option>
+							<option label="Edmonton" value="Edmonton"></option>
+							<option label="Flin Flon" value="Flin Flon"></option>
+							<option label="Hamilton" value="Hamilton"></option>
+							<option label="Iqualuit" value="Iqualuit"></option>
+							<option label="Ottawa" value="Ottawa"></option>
+							<option label="Miramichi" value="Miramichi"></option>
+							<option label="Montreal" value="Montreal"></option>
+							<option label="Red Deer" value="Red Deer"></option>
+							<option label="St. John" value="St. John"></option>
+							<option label="St. John's" value="St. John's"></option>
+							<option label="Scarborough" value="Scarborough"></option>
+							<option label="North York" value="North York"></option>
+							<option label="Toronto" value="Toronto"></option>
+							<option label="Vancouver" value="Vancouver"></option>
+							<option label="Whitehorse" value="Whitehorse"></option>
+							<option label="Winnipeg" value="Winnipeg"></option>
+							<option label="Victoria" value="Victoria"></option>
+							<option label="Quebec City" value="Quebec City"></option>
+							<option label="Regina" value="Regina"></option>
+							<option label="Halifax" value="Halifax"></option>
+							<option label="Fredericton" value="Fredericton"></option>
+						</datalist>
+                    </div>
+                    <div class="form__group">
+                        <input type="text" name="postal-code" id="postal-code" class="form__input form-input" placeholder="Postal Code">
+                        <label for="postal-code" id="postal-label" class="form__label form-label">Postal Code</label>
+                    </div>
+                    <div class="form__group group-what-for">
+                        <p>Purpose of this Message:</p>
+                        <input type="radio" id="Question" name="what-for" value="Question">
+                        <label for="Queries">Question</label><br>
+                        <input type="radio" id="Comment" name="what-for" value="Comment">
+                        <label for="comment">Comment</label><br>
+                        <input type="radio" id="Hiring" name="what-for" value="Hiring">
+                        <label for="hiring">Hiring</label>
+                    </div>
+                    <div class="form__group" id="hiring-form">
+                        <input type="number" name="hourly-rate Expected id="hourly-rate" class="form__input form-input" placeholder="Hourly Rate Expected">
+                        <label for="hourly-rate" id="hourly-label" class="form__label form-label">Hourly Rate Expected</label>
+                    </div>
+                    <div class="form__group group-what-for">
+                        <p>Language:</p>
+                        <input type="checkbox" id="english" name="lang-eng" value="English">
+                        <label for="english">English</label><br>
+                        <input type="checkbox" id="French" name="lang-ger" value="French">
+                        <label for="French">French</label><br>
+                        <input type="checkbox" id="other" name="lang-oth" value="Other">
+                        <label for="other">Other</label>
+                    </div>
+                    <div class="form__group">
+                        <textarea type="text" name="message" id="message" rows="5" spellcheck="false" class="form__input form-input" placeholder="Message" required=""></textarea>
+                        <label for="message" class="form__label form-label">Message</label>
+                    </div>
+                    <button class="btn btn-light submit-btn btn-contact">Submit</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
+
